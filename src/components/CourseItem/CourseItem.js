@@ -28,7 +28,7 @@ const CourseItem = (props) => {
                             
                         </div>
                     </div>
-                    <p><strong>Course Fee:</strong> INR{price}</p>
+                    <p><strong>Course Fee:</strong> INR <del>39999</del> {price}</p>
                     <button className='btn btn-outline-info' onClick={() => handleDetails(course)}>More Details</button>
                 </div>
             </div>
